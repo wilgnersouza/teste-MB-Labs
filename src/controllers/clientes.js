@@ -52,11 +52,11 @@ async function update(req, res) {
 
 		if (cliente) {
 			var body = req.body;
-			delete body.id;
+			delete body.email;
 
 			await cliente.update({ ...body }).then(() => {
 				const response = {
-					message: "Bank updated successfully",
+					message: "Cliente atualizado com sucesso",
 					cliente: cliente
 				};
 		

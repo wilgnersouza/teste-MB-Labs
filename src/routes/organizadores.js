@@ -4,6 +4,7 @@ const router = express.Router();
 
 // GET
 router.get("/", organizadoresController.list);
+router.get("/:tipoOrg", organizadoresController.list);
 
 router.get("/:email", organizadoresController.list);
 

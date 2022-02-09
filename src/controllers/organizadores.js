@@ -63,7 +63,7 @@ async function update(req, res) {
 			});
 		}
 
-		res.status(404).json({ message: "organizador nao encontrado" });
+		res.status(404).json({ message: "Organizador nao encontrado" });
 	} catch (error) {
 		console.log(error.message);
 		res.status(500).json({ message: "Internal Server Error" });

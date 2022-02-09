@@ -1,4 +1,4 @@
-import { Eventos } from '../models';
+import { Eventos, Organizadores, Lotes } from '../models';
 
 async function list(req, res) {
 	try {
@@ -23,9 +23,11 @@ async function list(req, res) {
 
 async function add(req, res) {
 	try {
-		const { id } = req.body; 
+		const { id, organizadorEmail } = req.body; 
 		const eventos = await Eventos.findByPk(id);
-
+		if (!(await Organizadores.findByPk(organizadorEmail))) {
+			res.status(400).json({ message: "Organizador não existente. " });
+		}
 		if (!eventos){
 			const eventos = await Eventos.create({ ...req.body })
 			const response = {

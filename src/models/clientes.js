@@ -25,12 +25,10 @@ module.exports = (sequelize, DataTypes) => {
 			nome: {
 				type: DataTypes.STRING,
 				allowNull: false,
-				validate: {
-					isAlpha: true,
-				},
 			},
 			cpf: {
 				type: DataTypes.STRING,
+				allowNull: false,
 				validate: {
 					isNumeric: true,
 					len: [11, 11],

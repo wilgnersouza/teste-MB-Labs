@@ -27,7 +27,8 @@ module.exports = {
 				type: Sequelize.STRING,
 				allowNull: false,
 				references: { model: "Organizadores", key: "email" },
-				onUpdate: "CASCADE"
+				onUpdate: "CASCADE",
+				onRemove: "CASCADE"
 			},
 			createdAt: {
 				allowNull: false,
