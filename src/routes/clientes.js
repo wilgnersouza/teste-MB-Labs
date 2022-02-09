@@ -4,15 +4,16 @@ const router = express.Router();
 
 // GET
 router.get("/", clientesController.list);
+
 router.get("/:email", clientesController.list);
 
 // POST
-//router.post("/", clientesController.add);
+router.post("/", clientesController.add);
 
 // PUT
-//router.put("/:id", clientesController.update);
+router.put("/:email", clientesController.update);
 
 // DELETE
-//router.delete("/:id", clientesController.remove);
+router.delete("/:email", clientesController.remove);
 
 export default router;

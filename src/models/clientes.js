@@ -27,13 +27,6 @@ module.exports = (sequelize, DataTypes) => {
 				allowNull: false,
 				validate: {
 					isAlpha: true,
-					isNome(value) {
-						if (value.split(" ").length < 2) {
-							throw new Error(
-								"Nome inválido (necessita pelo menos um nome e um sobrenome)"
-							);
-						}
-					},
 				},
 			},
 			cpf: {
