@@ -1,5 +1,4 @@
-import { Lotes } from '../models';
-import lotes from '../models/lotes';
+import { Lotes, Eventos } from '../models';
 
 async function list(req, res) {
 	try {
@@ -44,6 +43,7 @@ async function add(req, res) {
 		res.status(500).json({ message: "Internal Server Error" });
 	}
 }
+
 
 async function update(req, res) {
 	try {

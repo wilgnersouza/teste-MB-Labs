@@ -27,6 +27,7 @@ module.exports = (sequelize, DataTypes) => {
 				},
 			},
 			localEvento: DataTypes.STRING,
+			
 			qtdLote: {
 				type: DataTypes.INTEGER,
 				allowNull: false,

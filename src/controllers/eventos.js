@@ -1,4 +1,4 @@
-import { Eventos, Organizadores, Lotes } from '../models';
+import { Eventos, Organizadores } from '../models';
 
 async function list(req, res) {
 	try {

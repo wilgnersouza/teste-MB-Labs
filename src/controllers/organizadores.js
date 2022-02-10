@@ -51,7 +51,7 @@ async function update(req, res) {
 
 		if (organizador) {
 			var body = req.body;
-			delete body.id;
+			delete body.email;
 
 			await organizador.update({ ...body }).then(() => {
 				const response = {
