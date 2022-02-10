@@ -34,7 +34,7 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 $ git clone <https://github.com/wilgnersouza/teste-MB-Labs.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd API
+$ cd teste-mb-labs
 
 # Instale as dependências
 $ npm install
