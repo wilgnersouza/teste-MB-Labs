@@ -65,7 +65,7 @@ $ npm start
 # O servidor inciará na porta:3020 - acesse <https://localhost:3020>
 ```
 #### Importante ⚠️
-Neste ambiente, utilizei o cliente de API REST [Insomnia](https://insomnia.rest/) para fazer as requisições para a aplicação. Há também o [Postman](https://www.postman.com/). Utilize o de sua preferência 😉
+Neste ambiente, utilizei o cliente API REST [Insomnia](https://insomnia.rest/) para fazer as requisições para a aplicação. Há também o [Postman](https://www.postman.com/). Utilize o de sua preferência 😉
 
 ---
 
