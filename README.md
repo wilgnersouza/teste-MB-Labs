@@ -21,7 +21,7 @@ As seguintes ferramentas foram usadas na construção deste projeto:
 
 ---
 
-## Pré-requisitos
+## ✋🏻 Pré-requisitos
 
 Antes de rodar a aplicação, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) . 
