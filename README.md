@@ -6,7 +6,18 @@ uma API de venda de Ingressos 💻
 ### :heavy_check_mark: Projeto finalizado :heavy_check_mark:
 
 <p> Este teste foi proposto por MB Labs <p>
+ 
+```bash
+ 
+"Olá, tudo bem? Estou procurando uma empresa para desenvolver um app de gestão de eventos.
+ A ideia é ter algo que as pessoas possam utilizar para buscar e comprar ingressos para eventos de empresas e universidades.
+ Qual nosso próximo passo?"
 
+- Você pode desenvolver a aplicação backend completa, utilizando NodeJs, validação de erros e com deploy em docker
+
+- Você pode desenvolver uma poc do sistema, desenvolvendo backend.
+ 
+ ```
 ---
 
 ## 🛠 Tecnologias e Técnicas Utilizadas 🛠
